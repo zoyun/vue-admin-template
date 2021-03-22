@@ -1,0 +1,46 @@
+#app {
+    .headerbar {
+        background-color: #0083FF;
+        .brandarea{
+            display: inline-block;
+            vertical-align: middle;
+            width: 25%;
+            padding: 8px;
+        }
+        .menuarea{
+            display: inline-block;
+            vertical-align: middle;
+            width: 45%;
+            padding: 8px;
+        }
+        .endarea{
+            display: inline-block;
+            vertical-align: middle;
+            width: 30%;
+            padding: 8px;
+            div{
+                padding: 8px;
+                display: inline-block;
+                vertical-align: middle;                
+            }
+        }
+    }
+    .logo-image {
+        float: right;
+        height: 36px;  
+    }
+    .secondbar{
+        .brandarea{
+            display: inline-block;
+            vertical-align: middle;
+            width: 25%;
+            padding: 8px;
+        }
+        .menuarea{
+            display: inline-block;
+            vertical-align: middle;
+            width: 45%;
+            padding: 8px;
+        }
+    }
+}
